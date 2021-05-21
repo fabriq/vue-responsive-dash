@@ -84,6 +84,14 @@ export default {
       type: [Boolean, Number],
       default: Layout.defaults.minColWidth,
     },
+    width: {
+      type: String,
+      default: "5000px",
+    },
+    height: {
+      type: String,
+      default: "15000px",
+    },
   },
   components: {
     DashItem,
@@ -134,18 +142,6 @@ export default {
         return this.l.items;
       }
       return [];
-    },
-    height() {
-      if (this.l) {
-        return this.l.height + "px";
-      }
-      return "0px";
-    },
-    width() {
-      if (this.l) {
-        return this.l.width + "px";
-      }
-      return "0px";
     },
   },
   methods: {
