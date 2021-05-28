@@ -495,8 +495,8 @@ export class DashItem {
   static get defaults() {
     let defaults: Item = {
       id: "",
-      x: 0,
-      y: 0,
+      x: 5000,
+      y: 10000,
       width: 0,
       height: 0,
       minWidth: 0,
