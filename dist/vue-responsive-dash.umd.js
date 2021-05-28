@@ -10305,8 +10305,8 @@ var DashItem = /*#__PURE__*/function () {
     get: function get() {
       var defaults = {
         id: "",
-        x: 0,
-        y: 0,
+        x: 5000,
+        y: 10000,
         width: 0,
         height: 0,
         minWidth: 0,
